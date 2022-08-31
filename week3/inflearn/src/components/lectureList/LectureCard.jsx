@@ -1,8 +1,10 @@
 import React from 'react';
 import EmptyStar from './EmptyStar';
 import FillStar from './FillStar';
+import LectureRibbon from './LectureRibbon';
+import TagContent from './TagContent';
 
-function LectureCard({href, img_src, title, instructor, rating, review, price, tags}) {
+function LectureCard({href, img_src, title, instructor, rating, review, isDel, del, price, tags, isRibbon, ribbon, small}) {
     const starCount = () => {
         const result=[]
         const fill = rating / 1;
@@ -15,29 +17,57 @@ function LectureCard({href, img_src, title, instructor, rating, review, price, t
         }
         return result;
     }
+
+    const showingDel = () => {
+        if(isDel){
+            return (<del>{del}</del>);
+        }
+        return;
+    }
+
+    const showingRibbon = () => {
+        if(isRibbon){
+            return (<LectureRibbon text={ribbon} small={small}/>);
+        }
+        return;
+    }
+
     return (
-        <div className='swiper-slide free-lecture'>
-            <div className='card course course_card_item'>
+        <div className='lecture-card'>
+            <div className='lecture-card-conatiner card'>
                 <a className='course_card_front' href={href}>
                     <div className='card-image is_thumbnail .image'>
-                        <img loading='lazy' src={img_src} className="swiper-lazy" alt='이미지'/>
+                        <img loading='lazy' src={img_src} className="card-image-content" alt='이미지'/>
                         <div className='onload_placeholder'></div>
                         <div className='swiper-lazy-preloader'></div>
-                        <span className='course_card_ribbon is-shown-admin student_cnt'>
-                            5120
-                        </span>
+                        {showingRibbon()}
                     </div>
                     <div className='card-content'>
                         <div className='course_title'>{title}</div>
                         <div className='instructor'>{instructor}</div>
                         <div className='rating'>
                             <div className='rating_star'>
-                                {starCount()}
+                                <div className='star_solid_box'>
+                                    {starCount()}
+                                </div>
                             </div>
                             <span className='review_cnt'>{review}</span>
                         </div>
-                        <div className='price'>{price}</div>
+                        <div className='price'>
+                            {showingDel()}
+                            <span className='pay_price'>{price}</span>
+                        </div>
                         <div className='tags'>
+                            {
+                                tags.map((_,i) => {
+                                    return(
+                                        <TagContent
+                                        backgroundColor={tags[i].backgroundColor}
+                                        text={tags[i].text}
+                                        />
+                                    );
+                                })
+                            }
                         </div>
                     </div>
                 </a>

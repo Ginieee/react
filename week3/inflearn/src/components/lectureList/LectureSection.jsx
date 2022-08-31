@@ -9,13 +9,12 @@ function LectureSection(props) {
                 <div className='main-course-list'>
                     {
                         headerData.map((_, i) => {
-                            const cardList = headerData[i].card
                             return(
                                 <LectureHeader
                                 href={headerData[i].href}
                                 title={headerData[i].title}
                                 text={headerData[i].text}
-                                cardList={cardList}
+                                cardList={headerData[i].card}
                                 />
                             );
                         })

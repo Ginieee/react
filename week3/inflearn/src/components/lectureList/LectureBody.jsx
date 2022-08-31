@@ -9,16 +9,21 @@ function LectureBody({data}) {
                     <div className='swiper-wrapper'>
                         {
                             data.map((_,i) => {
-                                const tags = data[i].tags
                                 return(
                                     <LectureCard
                                     href={data[i].href}
                                     img_src={data[i].src}
                                     title={data[i].title}
                                     instructor={data[i].instructor}
+                                    rating={data[i].rating}
                                     review={data[i].review}
+                                    isDel={data[i].isDel}
+                                    del={data[i].del}
                                     price={data[i].price}
-                                    tags={tags}
+                                    tags={data[i].tags}
+                                    isRibbon={data[i].isRibbon}
+                                    ribbon={data[i].ribbon}
+                                    small={data[i].small}
                                     />
                                 );
                             })
