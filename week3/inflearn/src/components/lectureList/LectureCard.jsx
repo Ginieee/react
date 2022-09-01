@@ -36,7 +36,7 @@ function LectureCard({href, img_src, title, instructor, rating, review, isDel, d
         <div className='lecture-card'>
             <div className='lecture-card-conatiner card'>
                 <a className='course_card_front' href={href}>
-                    <div className='card-image is_thumbnail .image'>
+                    <div className='card-image is_thumbnail image'>
                         <img loading='lazy' src={img_src} className="card-image-content" alt='이미지'/>
                         <div className='onload_placeholder'></div>
                         <div className='swiper-lazy-preloader'></div>

@@ -14,6 +14,8 @@ function LectureSection(props) {
                                 href={headerData[i].href}
                                 title={headerData[i].title}
                                 text={headerData[i].text}
+                                isWhat={headerData[i].isWhat}
+                                courseTag={headerData[i].courseTag}
                                 cardList={headerData[i].card}
                                 />
                             );

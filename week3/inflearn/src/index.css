@@ -840,6 +840,7 @@ div {
 	align-items: center;
 	display: inline-flex;
 	justify-content: center;
+	margin-left: 5px;
 }
 
 .spanIcon_arrow_right {
@@ -1177,6 +1178,131 @@ img {
 small {
 	font-size: 12px;
 }
+
+/* roadmap */
+.roadmap_content {
+	box-sizing: inherit;
+	display: block;
+}
+
+.roadmap_cover {
+	position: relative;
+	box-sizing: inherit;
+	display: block;
+}
+
+.roadmap-cards {
+	cursor: grab;
+	touch-action: pan-y;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+	z-index: 1;
+	box-sizing: inherit;
+	display: block;
+}
+
+.roadmap-cards .swiper-wrapper {
+	padding: 6px 0;
+	transform: translate3d(0px, 0px, 0px);
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: flex;
+	transition-property: all;
+	box-sizing: content-box;
+}
+
+.roadmap-card-box {
+	width: 290.5px;
+	margin-right: 6px;
+	max-width: calc((100%-8px)/4);
+	height: auto;
+	flex-shrink: 0;
+	position: relative;
+	box-sizing: inherit;
+	display: block;
+}
+
+.roadmap_content .card {
+	box-shadow: none;
+}
+
+div.card.image_card.roadmap_card {
+	height: 100%;
+}
+
+.roadmap_card a {
+	box-sizing: inherit;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.card-image {
+	display: block;
+	position: relative;
+	box-sizing: inherit;
+}
+
+.roadmap-card-content {
+	background-color: transparent;
+	padding: 1.5rem;
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+}
+
+.content {
+	word-break: break-all;
+	height: auto;
+	display: block;
+}
+
+.roadmap_card h5 {
+	font-size: .95rem;
+	font-weight: 700;
+	margin-bottom: 0.8888em;
+	color: #363636;
+	line-height: 1.125;
+	box-sizing: inherit;
+	margin: 0;
+}
+
+.card .page_meta {
+	display: none;
+}
+
+.content p {
+	color: #495057;
+	font-size: .9rem;
+	margin: 0;
+	line-height: 1.6;
+	margin-block-start: 1.67em;
+	margin-block-end: 1.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	box-sizing: inherit;
+}
+
+.courses_tag {
+	color: #fa4c3d;
+	font-size: 12px;
+	font-weight: 700;
+	font-style: inherit;
+	box-sizing: inherit;
+}
+
+
+
+
+
+
+
 
 
 

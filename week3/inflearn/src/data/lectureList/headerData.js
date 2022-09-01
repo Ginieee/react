@@ -3,6 +3,8 @@ export const headerData = [
         href : "/",
         title : "무료강의? 오히려 좋아 ✨",
         text : "무료 강의부터 가볍게 시작해 보세요.",
+        isWhat : 0,
+        courseTag : "",
         card : [
             {
                 href : "/",
@@ -114,6 +116,8 @@ export const headerData = [
         href : "/",
         title : "왕초보도 할 수 있어요 💪",
         text : "이미 검증된 쉽고 친절한 입문 강의!!",
+        isWhat : 0,
+        courseTag : "",
         card : [
             {
                 href : "/",
@@ -218,6 +222,39 @@ export const headerData = [
                 isRibbon : false,
                 ribbon : "",
                 small : ""
+            }
+        ]
+    },
+    {
+        href : "/",
+        title : "기본부터 실무까지 제시해주는 로드맵 🏃🏻‍♀️",
+        text : "아무것도 몰라도 따라오다 보면 전문가가 될 수 있어요!",
+        isWhat : 1,
+        courseTag : "RoadMap!!",
+        card : [
+            {
+                href : "/",
+                src : "https://cdn.inflearn.com/public/roadmaps/29efab75-3480-4482-8ad8-4e984a4022f8/roadmap-38.png",
+                title : "R로 정복하는 데이터 분석",
+                author : "By 김승욱"
+            },
+            {
+                href : "/",
+                src : "https://cdn.inflearn.com/public/roadmaps/0efaac78-41ca-4145-a99b-ead624f8ec36/roadmap-106.png",
+                title : "MMORPG 게임 개발, 켠김에 끝판왕까지! (유니티 + C#)",
+                author : "By Rookiss"
+            },
+            {
+                href : "/",
+                src : "https://cdn.inflearn.com/public/roadmaps/c86d5f8f-2e37-4ee4-b3a9-cf39026d5fc4/roadmap-130.png",
+                title : "위니브 월드 : 새로운 시대 로드맵으로 Python 완전 정복!",
+                author : "By 제주코딩베이스캠프"
+            },
+            {
+                href : "/",
+                src : "https://cdn.inflearn.com/public/roadmaps/f450d6bc-656a-4f4c-8ec7-dc49e1c81a52/roadmap-5.png",
+                title : "마이크로소프트 개발자가 알려주는 자바 스프링(Spring) 완전 정복",
+                author : "By 백기선"
             }
         ]
     }
