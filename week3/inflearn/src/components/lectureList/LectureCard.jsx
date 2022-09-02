@@ -4,7 +4,7 @@ import FillStar from './FillStar';
 import LectureRibbon from './LectureRibbon';
 import TagContent from './TagContent';
 
-function LectureCard({href, img_src, title, instructor, rating, review, isDel, del, price, tags, isRibbon, ribbon, small}) {
+function LectureCard({href, img_src, title, instructor, isStar, rating, review, isDel, del, price, tags, isRibbon, ribbon, small}) {
     const starCount = () => {
         const result=[]
         const fill = rating / 1;
@@ -16,6 +16,22 @@ function LectureCard({href, img_src, title, instructor, rating, review, isDel, d
             result.push(<EmptyStar/>);
         }
         return result;
+    }
+
+    const starShowing = () => {
+        if(isStar){
+            return (
+                <div className='rating'>
+                    <div className='rating_star'>
+                        <div className='star_solid_box'>
+                            {starCount()}
+                        </div>
+                    </div>
+                    <span className='review_cnt'>{review}</span>
+                </div>
+            );
+        }
+        return;
     }
 
     const showingDel = () => {
@@ -46,12 +62,7 @@ function LectureCard({href, img_src, title, instructor, rating, review, isDel, d
                         <div className='course_title'>{title}</div>
                         <div className='instructor'>{instructor}</div>
                         <div className='rating'>
-                            <div className='rating_star'>
-                                <div className='star_solid_box'>
-                                    {starCount()}
-                                </div>
-                            </div>
-                            <span className='review_cnt'>{review}</span>
+                            {starShowing()}
                         </div>
                         <div className='price'>
                             {showingDel()}

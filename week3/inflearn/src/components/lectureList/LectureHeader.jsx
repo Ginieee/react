@@ -3,6 +3,7 @@ import right from 'img/next_arrow_black.png'
 import LectureBody from './LectureBody';
 import RoadMapBody from './RoadMapBody';
 import TitleTag from './TitleTag';
+import ReadingBody from './ReadingBody';
 
 function LectureHeader({href, title, text, isWhat, courseTag, cardList}) {
     
@@ -12,6 +13,9 @@ function LectureHeader({href, title, text, isWhat, courseTag, cardList}) {
         }
         else if(isWhat===1){
             return (<RoadMapBody data={cardList}/>);
+        }
+        else if(isWhat===2){
+            return (<ReadingBody data={cardList}/>);
         }
     }
 
@@ -44,9 +48,7 @@ function LectureHeader({href, title, text, isWhat, courseTag, cardList}) {
                                     </span>
                                 </h1>
                             </a>
-                            <p className='subtext is-2'>
-                                {text}
-                            </p>
+                            {isText()}
                         </div>
                     </div>
                     {typeCheck()}

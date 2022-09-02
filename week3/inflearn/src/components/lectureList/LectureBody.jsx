@@ -15,6 +15,7 @@ function LectureBody({data}) {
                                     img_src={data[i].src}
                                     title={data[i].title}
                                     instructor={data[i].instructor}
+                                    isStar={data[i].isStar}
                                     rating={data[i].rating}
                                     review={data[i].review}
                                     isDel={data[i].isDel}

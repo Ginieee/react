@@ -1,0 +1,1 @@
+export const reviewTitleCnt = "951,930"
