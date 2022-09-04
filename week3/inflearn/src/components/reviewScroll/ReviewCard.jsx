@@ -1,5 +1,5 @@
 import React from 'react';
-import right from 'img/next_arrow_black.png'
+import AngleRight from 'components/fontAwesome/AngleRight';
 
 function ReviewCard({name, time, href, title, text}) {
     return (
@@ -16,7 +16,7 @@ function ReviewCard({name, time, href, title, text}) {
                 <a href={href} className="title is-7">
                     <span className='review_card_title'>{title}</span>
                     <span className='spanIcon'>
-                        <img className='spanIcon_arrow_right' src={right} alt="이동"/>
+                        <AngleRight/>
                     </span>
                 </a>
                 <div className='text is-1'>

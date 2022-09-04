@@ -1,5 +1,5 @@
 import React from 'react';
-import img from 'img/ic_search.png'
+import Search from 'components/fontAwesome/Search';
 
 function SearchSection(props) {
     return (
@@ -10,7 +10,9 @@ function SearchSection(props) {
                     <div className='search_wrapper'>
                         <input className='input e_search_input' type="text" placeholder='배우고 싶은 지식을 입력해보세요.'></input>
                         <button className='button e_search_submit'>
-                            <img className='icon' src={img} alt="검색"/>
+                            <span className='icon'>
+                                <Search/>
+                            </span>
                         </button>
                     </div>
                 </div>

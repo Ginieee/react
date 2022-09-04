@@ -1,10 +1,10 @@
 import React from 'react';
-import more from "img/ic_arrow_row_gray.png"
+import Down from 'components/fontAwesome/Down';
 
 function TopBannerMenuMore(props) {
     return (
         <button type='button' className='open-pages-button'>
-            <img className='open-pages-button-img' src={more} alt="더보기"></img>
+            <Down/>    
         </button>
     );
 }

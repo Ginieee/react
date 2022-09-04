@@ -1,9 +1,9 @@
 import React from 'react';
-import right from 'img/next_arrow_black.png'
 import LectureBody from './LectureBody';
 import RoadMapBody from './RoadMapBody';
 import TitleTag from './TitleTag';
 import ReadingBody from './ReadingBody';
+import AngleRight from 'components/fontAwesome/AngleRight';
 
 function LectureHeader({href, title, text, isWhat, courseTag, cardList}) {
     
@@ -44,7 +44,7 @@ function LectureHeader({href, title, text, isWhat, courseTag, cardList}) {
                                     {title}
                                     {titleTag()}
                                     <span className='spanIcon'>
-                                        <img className='spanIcon_arrow_right' src={right} alt="이동"/>
+                                        <AngleRight/>
                                     </span>
                                 </h1>
                             </a>

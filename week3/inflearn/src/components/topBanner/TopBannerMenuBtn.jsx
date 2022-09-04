@@ -1,7 +1,7 @@
 import React from 'react';
-import prev from "img/prev_arrow.png";
-import next from "img/next_arrow.png";
-import pause from "img/pause.png";
+import Prev from 'components/fontAwesome/Prev';
+import Next from 'components/fontAwesome/Next';
+import Play from 'components/fontAwesome/Play';
 
 function TopBannerMenuBtn(props) {
     return (
@@ -13,13 +13,17 @@ function TopBannerMenuBtn(props) {
             </div>
             <div className='control-wrapper'>
                 <button type='button' className='control-btn'>
-                    <img src={prev} className="control-btn-side-size" alt='이전'></img>
+                    <Prev/>
+                </button>
+                <button type='button' className='control-btn-pause-play'>
+                    <svg className='btn-pause-svg' viewBox='0 0 155.3 159.3' xmlns='http://www.w3.org/2000/svg'>
+                        <path fill='#ffffff' d='m62 135.3h-13.3c-1.9 0-3.4-1.5-3.4-3.4v-104.6c0-1.9 1.5-3.4 3.4-3.4h13.3c1.9 0 3.4 1.5 3.4 3.4v104.7c-.1 1.8-1.6 3.3-3.4 3.3z'></path>
+                        <path fill='#ffffff' d='m106.6 135.3h-13.3c-1.9 0-3.4-1.5-3.4-3.4v-104.6c0-1.9 1.5-3.4 3.4-3.4h13.3c1.9 0 3.4 1.5 3.4 3.4v104.7c0 1.8-1.5 3.3-3.4 3.3z'></path>
+                    </svg>
+                    <Play/>
                 </button>
                 <button type='button' className='control-btn'>
-                    <img src={pause} className="control-btn-mid-size" alt='일시정지'></img>
-                </button>
-                <button type='button' className='control-btn'>
-                    <img src={next} className="control-btn-side-size" alt='다음'></img>
+                    <Next/>    
                 </button>
             </div>
         </div>
