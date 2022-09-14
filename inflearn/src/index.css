@@ -2695,3 +2695,220 @@ option {
 	height: 16px;
 }
 
+/* Courses Container*/
+#courses_section .container .columns {
+	margin: 0;
+}
+
+.columns:not(.is-desktop) {
+	display: flex;
+}
+
+.columns.is-multiline {
+	flex-wrap: wrap;
+}
+
+.column:last-child {
+	margin-bottom: -0.75rem;
+}
+
+#courses_section .container .courses_main .courses_container .columns .lecture-card {
+	flex: none;
+	width: 25%;
+	display: block;
+	padding: 0.75rem;
+	margin-right: 0;
+	max-width: none;
+} 
+
+#courses_section .container .courses_main .courses_container .columns .lecture-card .lecture-card-conatiner {
+	height: 100%;
+	box-shadow: none;
+	background-color: none;
+	color: #454545;
+	max-width: 100%;
+	position: relative;
+}
+
+#courses_section .container .column.courses_body .courses_footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 32px;
+}
+
+#courses_section .container .column.courses_body .courses_footer nav.pagination {
+	width: 100%;
+
+}
+
+.pagination.is-small {
+	font-size: .75rem;
+}
+
+
+.pagination, .pagination-list {
+	align-items: center;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.pagination {
+	justify-content: space-between;
+	font-size: 1rem;
+	margin : -0.25rem;
+}
+
+.pagination_container {
+	width: 100%;
+	position: relative;
+}
+
+#courses_section .container .column.column.courses_body .courses_footer nav.pagination .pagination_container .pagination-next {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.pagination.is-centered .pagination-next {
+	order: 3;
+}
+
+.pagination-next {
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	white-space: nowrap;
+}
+
+.pagination-link {
+	color: #363636;
+	min-width: 2.25em;
+	font-size: 1em;
+	justify-content: center;
+	margin: 0.25rem;
+	text-align: center;
+	align-items: center;
+	border: 1px solid #dbdbdb;
+	border-radius: 4px;
+	box-shadow: none;
+	display: inline-flex;
+	height: 2.25em;
+	line-height: 1.5;
+	padding: calc(.375em - 1px) calc(.625em - 1px);
+	vertical-align: top;
+	user-select: none;
+	padding-left: 0.5em;
+	position: relative;
+	padding-right: 0.5em;
+}
+
+
+.pagination.is-centered .pagination-list {
+	justify-content: center;
+	order: 2;
+}
+
+.pagination-list {
+	flex-grow: 1;
+	flex-shrink: 1;
+	justify-content: flex-start;
+	order: 1;
+}
+
+.pagination-list {
+	flex-wrap: wrap;
+}
+
+.pagination-link.is-current {
+	background-color: #1dc078;
+	border-color: #1dc078;
+	color: #fff;
+}
+
+.pagination.is-centered .pagination-list {
+	justify-content: center;
+	order: 2;
+}
+
+.pagination-list {
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+
+.pagination-link {
+	flex-wrap: wrap;
+	align-items: center;
+	display: flex;
+	text-align: center;
+}
+
+.pagination-link.is-current {
+
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+/* #main.sticky {
+	margin-top: 64px;
+} */
+
+#main {
+	min-height: 800px;
+}
+
+section.apply_section {
+	background: #f3f4f7;
+}
+
+section.apply_section .wrapper {
+	display: flex;
+	padding: 96px 0;
+	max-width: 1152px;
+	margin: 0 auto;
+	justify-content: space-around;
+}
+
+section.apply_section .apply_card {
+	text-align: center;
+}
+
+section.apply_section .apply_card .apply_title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+section.apply_section .apply_card .apply_desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 24px;
+	white-space: pre-line;
+}
+
+section.apply_section .apply_card .button.button_primary {
+    background: #1dc078;
+    color: #fff;
+    font-size: 20px;
+}
+
+section.apply_section .apply_card .button {
+    border-radius: 2px;
+    padding: 8px 16px;
+    border: none;
+	cursor: pointer;
+	justify-content: center;
+	text-align: center;
+	white-space: nowrap;
+	align-items: center;
+	display: inline-flex;
+	height: 2.25em;
+	line-height: 1.5;
+	position: relative;
+	vertical-align: top;
+}
+

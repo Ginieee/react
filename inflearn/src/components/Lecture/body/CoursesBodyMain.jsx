@@ -1,5 +1,6 @@
 import React from 'react';
-import Breadcrumb from './Breadcrumb';
+import Breadcrumb from './BreadCrumb/Breadcrumb';
+import CoursesContainer from './CoursesContainer/CoursesContainer';
 import CoursesSearchOption from './SearchOption/CoursesSearchOption';
 import CoursesTags from './Tags/CoursesTags';
 
@@ -9,6 +10,7 @@ function CoursesBodyMain(props) {
             <Breadcrumb/>
             <CoursesTags/>
             <CoursesSearchOption/>
+            <CoursesContainer/>
         </main>
     );
 }
