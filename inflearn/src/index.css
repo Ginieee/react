@@ -65,7 +65,22 @@ input::placeholder{color:#9c9c9c;font-size:.9rem;}
 .content .search_wrapper .input:-ms-input-placeholder{font-size:16px;color:#9fcab7;}
 .content .search_wrapper .input::placeholder{font-size:16px;color:#9fcab7;}
 
-
+.button, .file-cta, .file-name, .input, .pagination-ellipsis, .pagination-link, .pagination-next, .pagination-previous, .select select, .textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.25em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding: calc(0.375em - 1px) calc(0.625em - 1px);
+    position: relative;
+    vertical-align: top;
+}
 
 
 html {
@@ -3200,4 +3215,211 @@ input[type=checkbox], input[type=radio] {
 
 .form__password-guide-area--hide, .form__password-guide-area.form__password-guide-area--default .form__password-guide-line--un-acceptable, .form__password-guide-area:not(.form__password-guide-area--default) .form__password-guide-line--default {
 	display: none;
+}
+
+
+/*navRoadmap*/
+.roadmap_list_section header.roadmap_list_hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 48px 0;
+	background-color: #fcfff8;
+	background-image: url(https://cdn.inflearn.com/public/files/posts/3dc171db-6fbb-4561-b0cd-d8f5577e9b87/roadmap_2.jpg);
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.roadmap_list_section header.roadmap_list_hero h1.heading_list {
+	font-size: 2rem;
+	font-weight: 800;
+	line-height: 1;
+	color: #333;
+}
+
+.roadmap_list_section header.roadmap_list_hero p.heading_desc:first-of-type {
+	margin-top: 1rem;
+}
+
+.roadmap_list_section header.roadmap_list_hero p.heading_desc {
+	font-size: 16px;
+	line-height: 1.44;
+	color: #595959;
+}
+
+.roadmap_list_section header.roadmap_list_hero .search_root {
+	margin-top: 1rem;
+}
+
+
+.roadmap_list_section header.roadmap_list_hero div.search_section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.roadmap_list_section header.roadmap_list_hero div.search_section .search_bar {
+	width: 500px;
+	height: 48px;
+	display: flex;
+	position: relative;
+	align-items: center;
+	border-top-left-radius: 24px;
+	border-bottom-left-radius: 24px;
+	background-color: #fff;
+}
+
+.roadmap_list_section header.roadmap_list_hero div.search_section .search_bar .select {
+	margin-left: 20px;
+}
+
+.select:not(.is-multiple) {
+	height: 2.25em;
+}
+
+.select {
+	display: inline-block;
+	max-width: 100%;
+	position: relative;
+	vertical-align: top;
+}
+
+.select select {
+	background-color: #fff;
+	border-color: #dbdbdb;
+	color: #363636;
+	cursor: pointer;
+	display: block;
+	font-size: 1em;
+	max-width: 100%;
+	outline: none;
+}
+
+.roadmap_list_section header.roadmap_list_hero div.search_section .search_bar .select select {
+	height: 100%;
+	color: #333;
+	font-size: 1rem;
+	border: 0;
+	background: #fff;
+}
+
+.select select:not([multiple]){
+	padding-right: 2.5em;
+}
+
+option {
+	font-weight: normal;
+	display: block;
+	white-space: nowrap;
+	min-height: 1.2em;
+	padding: 0px 2px 1px;
+}
+
+.select:not(.is-multiple):not(.is-loading):after {
+	border-color: #1dc078;
+	right: 1.125em;
+	z-index: 4;
+}
+
+.roadmap_list_section header.roadmap_list_hero div.search_section .search_bar .select:not(.is-multiple):not(.is-loading):after {
+	border-color: #333;
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+	border: 3px solid transparent;
+    border-radius: 2px;
+    border-right: 0;
+    border-top: 0;
+    content: " ";
+    display: block;
+    height: 0.625em;
+    margin-top: -0.4375em;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    width: 0.625em;
+}
+
+.roadmap_list_section header.roadmap_list_hero div.search_section .search_bar input.search_window {
+	background: transparent;
+	border: 0;
+	height: 100%;
+	font-size: 1rem;
+	color: #333;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+	margin-right: 35px;
+}
+
+.roadmap_list_section header.roadmap_list_hero div.search_section .search_bar button.curved_button {
+	font-size: 16px;
+    font-weight: 800;
+    line-height: 1;
+    color: #fff;
+    background-color: #1dc078;
+    border: 1px solid #1dc078;
+    border-radius: 35.5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    right: -35px;
+    top: 0;
+    bottom: 0;
+    width: 70px;
+    height: 100%;
+}
+
+.container {
+	flex-grow: 1;
+	position: relative;
+	margin: 0 auto;
+	width: auto;
+}
+
+.roadmap_list_section main {
+	max-width: 1440px;
+	margin: auto;
+	padding: 24px 1rem;
+}
+
+.roadmap_list_section div.content_palette .header_navigation {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 12px;
+	padding: 0 12px;
+}
+
+.roadmap_list_section div.content_palette .header_navigation .nav_left button {
+	display: none;
+	color: #929292;
+	background: #fff;
+	border: 0;
+	padding: 0;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.roadmap_list_section div.content_palette .header_navigation .nav_right button.active {
+	opacity: 1;
+}
+
+.roadmap_list_section div.content_palette .header_navigation .nav_right button {
+	color: #929292;
+	background: #fff;
+	border: 0;
+	padding: 0;
+	font-size: 1.5rem;
+	cursor: pointer;
+	opacity: .3;
+}
+
+.roadmap_list_section div.content_palette .header_navigation .nav_right button+button {
+	margin-left: 1em;
 }

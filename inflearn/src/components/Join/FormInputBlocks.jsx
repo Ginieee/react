@@ -28,14 +28,6 @@ function FormInputBlocks(props) {
         }
     }
 
-    // const ErrorEmail = () => {
-    //     if(!emailValid && email.length > 0){
-    //         console.log("email valid");
-    //         return "form__error form__error--email"
-    //     }
-    //     return "form__error form__error--email form__error--hide"
-    // }
-
     const handlePassword = (e) => {
         setPw(e.target.value);
         const regex = 

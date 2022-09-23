@@ -10,6 +10,7 @@ function TopNavMenuLeft(){
                     return(
                         <TopNavMenuLeftContent
                         title={item.title}
+                        href={item.href}
                         />
                     )
                 })

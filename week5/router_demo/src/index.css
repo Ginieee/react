@@ -1,0 +1,33 @@
+@import 'reset.css';
+
+.header-container {
+  background-color: blue;
+}
+
+.header-wrap {
+  height: 64px;
+  width: 1400px;
+  margin: 0 auto;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header-wrap span {
+  padding: 8px;
+  border: 1px solid white;
+  margin-right: 14px;
+
+}
+
+.header-wrap ul {
+  display: flex;
+  margin-left: 16px;
+}
+
+.header-wrap ul li {
+  padding: 8px;
+  border: 1px solid white;
+  margin-right: 14px;
+}

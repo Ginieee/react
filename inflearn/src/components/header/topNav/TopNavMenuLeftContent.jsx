@@ -1,6 +1,7 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-function TopNavMenuLeftContent({title}){
+function TopNavMenuLeftContent({title, href}){
 
     // function mouseOver (event){
     //     event.target.style.color = 'red';
@@ -14,9 +15,9 @@ function TopNavMenuLeftContent({title}){
 
     return(
         <div className="top-nav-menu-left-content-def">
-            <a href="/" className="top-nav-menu-left-content-a-def">
+            <NavLink to={href} className="top-nav-menu-left-content-a-def">
                 <span>{title}</span>
-            </a>
+            </NavLink>
         </div>
     );
 }
