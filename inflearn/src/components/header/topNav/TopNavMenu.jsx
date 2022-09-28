@@ -4,7 +4,7 @@ import TopNavMenuRight from "./TopNavMenuRight";
 
 function TopNavMenu(){
     return(
-        <div className="top-nav-menu">
+        <div className="navbar-menu">
             <TopNavMenuLeft/>
             <TopNavMenuRight/>
         </div>

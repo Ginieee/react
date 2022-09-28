@@ -1,17 +1,18 @@
 import React from "react";
-import TopNavLogoA from "./TopNavLogoA";
-import TopNavMenu from "./TopNavMenu";
+import {useMediaQuery} from 'react-responsive';
+import DesktopVer from "./DesktopVer";
+import MobileVer from "./MobileVer";
 
 function TopNav(){
+
+    const isDesktop = useMediaQuery({
+        query:'(min-width:1025px)',
+    });
+
     return(
         <header id="header">
-            <nav className="top-nav-wrapper">
-                <div className="top-nav-container">
-                    <div className="top-nav-content">
-                        <TopNavLogoA/>
-                        <TopNavMenu/>
-                    </div>
-                </div>
+            <nav className="navbar">
+                {isDesktop ? <DesktopVer/> : <MobileVer/>}
             </nav>
         </header>
     );

@@ -4,7 +4,7 @@ import TopNavMenuLeftContent from "./TopNavMenuLeftContent";
 
 function TopNavMenuLeft(){
     return(
-        <div className="top-nav-menu-left">
+        <div className="navbar-left">
             {
                 topNavMenu.map((item) => {
                     return(

@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 
 function TopNavMenuRightButton(){
     return(
-        <div className="top-nav-menu-right-button">
-            <a className="button padding-8 signin" href="/" role="button">
+        <div className="navbar-item buttons">
+            <a className="button space-inset-4 signin" href="/" role="button">
                 로그인
             </a>
-            <NavLink className="button padding-8 signup is-primary" to="/join">
+            <NavLink className="e-signup button space-inset-4 is-primary" to="/join">
                 회원가입
             </NavLink>
         </div>

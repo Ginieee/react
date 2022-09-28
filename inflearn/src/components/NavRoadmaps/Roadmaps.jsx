@@ -1,3 +1,4 @@
+import ApplySection from 'components/Lecture/ApplySection/ApplySection';
 import React from 'react';
 import RoadmapsMain from './RoadmapsMain';
 import TopInputBanner from './TopInputBanner';
@@ -11,6 +12,7 @@ function Roadmaps(props) {
                 <RoadmapsMain/>
             </section>
         </main>
+        <ApplySection/>
         </>
     );
 }

@@ -4,7 +4,7 @@ import TopNavMenuRightSearch from "./TopNavMenuRightSearch";
 
 function TopNavMenuRight(){
     return(
-        <div className="top-nav-menu-right">
+        <div className="navbar-right">
             <TopNavMenuRightSearch/>
             <TopNavMenuRightButton/>
         </div>

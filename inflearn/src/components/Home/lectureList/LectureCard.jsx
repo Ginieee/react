@@ -68,7 +68,7 @@ function LectureCard({href, img_src, title, instructor, isStar, rating, review, 
                             {showingDel()}
                             <span className='pay_price'>{price}</span>
                         </div>
-                        <div className='tags'>
+                        <div className='tagss'>
                             {
                                 tags.map((_,i) => {
                                     return(

@@ -14,8 +14,8 @@ function TopNavMenuLeftContent({title, href}){
     // a태그 옆에 onMouseOver={mouseOver} onMouseOut={mouseOut}
 
     return(
-        <div className="top-nav-menu-left-content-def">
-            <NavLink to={href} className="top-nav-menu-left-content-a-def">
+        <div className="navbar-item">
+            <NavLink to={href} className="navbar-item">
                 <span>{title}</span>
             </NavLink>
         </div>
