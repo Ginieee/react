@@ -3,6 +3,8 @@ import EmptyStar from './EmptyStar';
 import FillStar from './FillStar';
 import LectureRibbon from './LectureRibbon';
 import TagContent from './TagContent';
+import styled from 'styled-components';
+import { BREAKPOINT_PC_END, BREAKPOINT_PC_START, BREAKPOINT_PHONE_SMALL_START, BREAKPOINT_PHONE_SMALL_END, BREAKPOINT_TABLET_END, BREAKPOINT_TABLET_START, minMediaQueries, mediaQueriesBetween, maxMediaQueries } from 'mediaQuery.ts';
 
 function LectureCard({href, img_src, title, instructor, isStar, rating, review, isDel, del, price, tags, isRibbon, ribbon, small}) {
     const starCount = () => {
@@ -49,7 +51,7 @@ function LectureCard({href, img_src, title, instructor, isStar, rating, review, 
     }
 
     return (
-        <div className='lecture-card'>
+        <LectureCardWrapper className='lecture-card'>
             <div className='lecture-card-conatiner card'>
                 <a className='course_card_front' href={href}>
                     <div className='card-image is_thumbnail image'>
@@ -83,8 +85,28 @@ function LectureCard({href, img_src, title, instructor, isStar, rating, review, 
                     </div>
                 </a>
             </div>
-        </div>
+        </LectureCardWrapper>
     );
 }
+
+const LectureCardWrapper = styled.div `
+	margin-right: 6px;
+	height: auto;
+	flex-shrink: 0;
+	position: relative;
+	transition-property: all;
+    ${minMediaQueries(BREAKPOINT_PC_START)} {
+        max-width: calc((100% - 8px)/5);
+    }
+    ${mediaQueriesBetween(BREAKPOINT_TABLET_START, BREAKPOINT_PC_END)} {
+        max-width: calc((100% - 8px)/4);
+    }
+    ${mediaQueriesBetween(BREAKPOINT_PHONE_SMALL_START, BREAKPOINT_TABLET_END)} {
+        max-width: calc((100% - 8px)/3);
+    }
+    ${maxMediaQueries(BREAKPOINT_PHONE_SMALL_END)} {
+        max-width: calc((100% - 8px)/2);
+    }
+`
 
 export default LectureCard;

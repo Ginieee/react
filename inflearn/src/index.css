@@ -288,12 +288,21 @@ div {
 }
 
 /*topNav*/
+.header_parent {
+	position: relative;
+}
+
 #header {
     top: 0;
     left: 0;
     right: 0;
     z-index: 74;
 	display: block;
+}
+
+#header.sticky {
+	position: fixed;
+	background-color: #fff;
 }
 
 .navbar {
@@ -4157,4 +4166,65 @@ section.card.image_card.roadmap_card .card-content .metas--mobile div {
     align-items: center;
     justify-content: center;
     transition: all .15s ease;
+}
+
+
+/*BottomNav*/
+.InfD__BottomNavigation_dimmed {
+	display: none;
+}
+
+.InfD__BottomNavigation, .InfD__BottomNavigation_dimmed+.InfD__BottomNavigation .more_content {
+    display: none;
+}
+
+.InfD__BottomNavigation .nav_content {
+	height: 66px;
+    box-shadow: 0 -2px 4px 0 rgb(33 37 41 / 8%);
+    background-color: #fff;
+}
+
+.InfD__BottomNavigation .nav_content .el_list {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.InfD__BottomNavigation .nav_content .el_list .el {
+    display: flex;
+    width: 72px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    padding: 8px;
+    color: #495057;
+}
+
+.InfD__BottomNavigation .nav_content .el_list .el.active, .InfD__BottomNavigation .nav_content .el_list .el:active {
+    color: #00c471;
+}
+
+.InfD__BottomNavigation .nav_content .el_list .el a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.InfD__BottomNavigation .nav_content .el_list .el .icon_cover .icon {
+    font-size: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+
+.InfD__BottomNavigation .nav_content .el_list .el .icon_cover {
+    display: inline-block;
+}
+
+.InfD__BottomNavigation .nav_content .el_list .el .icon_cover.is_active {
+    display: none;
 }
