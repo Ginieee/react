@@ -15,9 +15,11 @@ function App() {
         <Route element={<Layout/>}>
           <Route exact path="/" element={<Home/>}/>
           <Route path="/courses" element={<Courses/>}/>
+          <Route path="/courses/:big" element={<Courses/>}/>
+          <Route path="/courses/:big/:middle" element={<Courses/>}/>
           <Route path="/roadmaps" element={<Roadmaps/>}/>
           <Route path="/mentors" element={<Mentors/>}/>
-          <Route path="/community" element={<Community/>}/>
+          <Route path="/community/:content" element={<Community/>}/>
           <Route path="/open-knowledge" element={<OpenKnowledge/>}/>
         </Route>
         <Route path="*" element={<NotFound/>}/>

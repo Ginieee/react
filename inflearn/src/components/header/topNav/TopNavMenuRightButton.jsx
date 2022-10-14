@@ -54,11 +54,11 @@ function TopNavMenuRightButton(){
     const onClickConfirmButton = () => {
         if(email === user.email && pw === user.pw){
             // 로그인 성공
-            setLogin(true)
+            setLogin("true")
             alert(`로그인에 성공했습니다` + login)
         } else {
             // 로그인 실패
-            setLogin(false)
+            setLogin("false")
             alert(`로그인에 실패했습니다` + login)
         }
         console.log(login)

@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { topNavDesktopData } from 'Data/header/topNavDesktopData';
-import Dropdown from './Dropdown';
-import SubNav from './SubNav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import ManyDropFirst from './ManyDropFirst';
+import OneDrop from './OneDrop';
+import NotDrop from './NotDrop';
 
 function TopNavDesktop(props) {
+
     return (
         <div className='container desktop_container'>
             <div className='content'>
@@ -22,22 +24,30 @@ function TopNavDesktop(props) {
                     </Link>
                 </div>
                 <div className='navbar-menu'>
-                    {/* <div className='navbar-left'>
+                    <div className='navbar-left'>
                         {
                             topNavDesktopData.map((item)=>{
-                                if(item.isDrop){
+                                if(item.case === 1) {
                                     return(
-                                        <Dropdown
-                                        className={item.className}
+                                        <ManyDropFirst
                                         link={item.link}
                                         text={item.text}
-                                        list={item.list}
+                                        subList={item.subList}
+                                        />
+                                    );
+                                }
+                                else if(item.case === 2) {
+                                    return(
+                                        <OneDrop
+                                        link={item.link}
+                                        text={item.text}
+                                        subList={item.subList}
                                         />
                                     );
                                 }
                                 else {
                                     return(
-                                        <SubNav
+                                        <NotDrop
                                         link={item.link}
                                         text={item.text}
                                         />
@@ -45,12 +55,14 @@ function TopNavDesktop(props) {
                                 }
                             })
                         }
-                    </div> */}
+                    </div>
                     <div className='navbar-right'>
                         <div className='search search_bar navbar-item header_search header_search--gnb'>
                             <input type='text' enterKeyHint='go' className='input' placeholder data-kv="headerSearchWorld"></input>
                             <span className='search__icon e-header-search'>
-                                <FontAwesomeIcon className='far fa-search' icon={faSearch}/>
+                                <i className='far fa-search'>
+                                    <FontAwesomeIcon icon={faSearch}/>
+                                </i>
                             </span>
                         </div>
                         <div className='navbar-item buttons'>

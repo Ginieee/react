@@ -1,1524 +1,1523 @@
 export const topNavDesktopData = [
     {
 
-        isDrop : true,
-        className : "has-dropdown is-hoverable navbar-item category_menu content--no-list-style",
+        case : 1,
         link : "/courses",
         text : "강의",
-        list : [
+        subList : [
             {
-                name : "개발 · 프로그래밍",
                 link : "/courses/it-programming",
-                sublist : [
+                text : "개발 · 프로그래밍",
+                subList : [
                     {
-                        name : "웹 개발",
                         link : "/courses/it-programming/web-dev",
-                        sublist : [
+                        text : "웹 개발",
+                        subList : [
                             {
                                 link : "/courses/it-programming/web-dev?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/web-dev?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/web-dev?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/web-dev?skill=java",
-                                name : "Java"
+                                text : "Java"
                             },
                             {
                                 link : "/courses/it-programming/web-dev?skill=nodejs",
-                                name : "NodeJs"
+                                text : "NodeJs"
                             },
                             {
                                 link : "/courses/it-programming/web-dev?skill=spring",
-                                name : "Spring"
+                                text : "Spring"
                             },
                             {
                                 link : "/courses/it-programming/web-dev?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/web-dev?skill=python",
-                                name : "Python"
+                                text : "Python"
                             },
                             {
                                 link : "/courses/it-programming/web-dev?skill=django",
-                                name : "Django"
+                                text : "Django"
                             },
                             {
                                 link : "/courses/it-programming/web-dev?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/web-dev?skill=spring-boot",
-                                name : "Spring Boot"
+                                text : "Spring Boot"
                             },
                             {
                                 link : "/courses/it-programming/web-dev?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             }
                         ]
                     },
                     {
-                        name : "프론트엔드",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "프론트엔드",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "백엔드",
                         link : "/courses/it-programming/back-end",
-                        sublist : [
+                        text : "백엔드",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "풀스택",
                         link : "/courses/it-programming/full-stack",
-                        sublist : [
+                        text : "풀스택",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "모바일 앱 개발",
                         link : "/courses/it-programming/mobile-app",
-                        sublist : [
+                        text : "모바일 앱 개발",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "게임 개발",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "게임 개발",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "프로그래밍 언어",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "프로그래밍 언어",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "알고리즘 · 자료구조",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "알고리즘 · 자료구조",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "데이터베이스",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "데이터베이스",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "데브옵스 · 인프라",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "데브옵스 · 인프라",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "임베디드 · IoT",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "임베디드 · IoT",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "자격증",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "자격증",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     }
                 ]
             },
             {
-                name : "보안 · 네트워크",
                 link : "/courses/it",
-                sublist : [
+                text : "보안 · 네트워크",
+                subList : [
                     {
-                        name : "게임 개발",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "게임 개발",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             }
                         ]
                     },
                     {
-                        name : "프로그래밍 언어",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "프로그래밍 언어",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "데브옵스 · 인프라",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "데브옵스 · 인프라",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "임베디드 · IoT",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "임베디드 · IoT",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "자격증",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "자격증",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     }
                 ]
             },
             {
-                name : "데이터 사이언스",
                 link : "/courses/data-science",
-                sublist : [
+                text : "데이터 사이언스",
+                subList : [
                     {
-                        name : "게임 개발",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "게임 개발",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             }
                         ]
                     },
                     {
-                        name : "프로그래밍 언어",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "프로그래밍 언어",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "데브옵스 · 인프라",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "데브옵스 · 인프라",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "임베디드 · IoT",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "임베디드 · IoT",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "자격증",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "자격증",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     }
                 ]
             },
             {
-                name : "게임 개발",
                 link : "/courses/game-dev-all",
-                sublist : [
+                text : "게임 개발",
+                subList : [
                     {
-                        name : "게임 개발",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "게임 개발",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             }
                         ]
                     },
                     {
-                        name : "프로그래밍 언어",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "프로그래밍 언어",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "데브옵스 · 인프라",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "데브옵스 · 인프라",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "임베디드 · IoT",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "임베디드 · IoT",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "자격증",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "자격증",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     }
                 ]
             },
             {
-                name : "크리에이티브",
                 link : "/courses/creative",
-                sublist : [
+                text : "크리에이티브",
+                subList : [
                     {
-                        name : "게임 개발",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "게임 개발",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             }
                         ]
                     },
                     {
-                        name : "프로그래밍 언어",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "프로그래밍 언어",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "데브옵스 · 인프라",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "데브옵스 · 인프라",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "임베디드 · IoT",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "임베디드 · IoT",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
+                                text : "ES6"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
+                                text : "인터랙티브 웹"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
+                                text : "클론코딩"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
+                                text : "웹앱"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
+                                text : "TypeScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
+                                text : "Redux"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     },
                     {
-                        name : "자격증",
                         link : "/courses/it-programming/front-end",
-                        sublist : [
+                        text : "자격증",
+                        subList : [
                             {
                                 link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
+                                text : "JavaScript"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
+                                text : "HTML/CSS"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
+                                text : "React"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
+                                text : "Vue.js"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
+                                text : "jQuery"
                             },
                             {
                                 link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
+                                text : "Node.js"
                             }
                         ]
                     }
@@ -1527,3070 +1526,86 @@ export const topNavDesktopData = [
         ]
     },
     {
-        isDrop : false,
-        className : "",
+        case : 3,
         link : "/roadmaps",
-        text : "로드맵",
-        list : null
+        text : "로드맵"
     },
     {
-        isDrop : false,
-        className : "",
+        case : 3,
         link : "/mentors",
-        text : "멘토링",
-        list : null
+        text : "멘토링"
     },
     {
-
-        isDrop : true,
-        className : "has-dropdown is-hoverable navbar-item  icon_drop_menu",
+        case : 2,
         link : "/community/questions",
         text : "커뮤니티",
-        list : [
+        subList : [
             {
-                name : "개발 · 프로그래밍",
-                link : "/courses/it-programming",
-                sublist : [
-                    {
-                        name : "웹 개발",
-                        link : "/courses/it-programming/web-dev",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/web-dev?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=java",
-                                name : "Java"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=nodejs",
-                                name : "NodeJs"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=spring",
-                                name : "Spring"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=python",
-                                name : "Python"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=django",
-                                name : "Django"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=spring-boot",
-                                name : "Spring Boot"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=jquery",
-                                name : "jQuery"
-                            }
-                        ]
-                    },
-                    {
-                        name : "프론트엔드",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "백엔드",
-                        link : "/courses/it-programming/back-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "풀스택",
-                        link : "/courses/it-programming/full-stack",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "모바일 앱 개발",
-                        link : "/courses/it-programming/mobile-app",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "게임 개발",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "프로그래밍 언어",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "알고리즘 · 자료구조",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "데이터베이스",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "데브옵스 · 인프라",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "임베디드 · IoT",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "자격증",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    }
-                ]
+                link : '/community/questions',
+                icon : 'questions',
+                iconClassName : 'fal fa-comment-alt-edit',
+                text : '질문 & 답변'
             },
             {
-                name : "보안 · 네트워크",
-                link : "/courses/it",
-                sublist : [
-                    {
-                        name : "게임 개발",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            }
-                        ]
-                    },
-                    {
-                        name : "프로그래밍 언어",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "데브옵스 · 인프라",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "임베디드 · IoT",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "자격증",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    }
-                ]
+                link : '/community/chats',
+                icon : 'chats',
+                iconClassName : 'fal fa-comment-alt-dots',
+                text : '자유주제'
             },
             {
-                name : "데이터 사이언스",
-                link : "/courses/data-science",
-                sublist : [
-                    {
-                        name : "게임 개발",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            }
-                        ]
-                    },
-                    {
-                        name : "프로그래밍 언어",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "데브옵스 · 인프라",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "임베디드 · IoT",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "자격증",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    }
-                ]
+                link : '/community/studies',
+                icon : 'studies',
+                iconClassName : 'fal fa-book-open',
+                text : '스터디'
             },
             {
-                name : "게임 개발",
-                link : "/courses/game-dev-all",
-                sublist : [
-                    {
-                        name : "게임 개발",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            }
-                        ]
-                    },
-                    {
-                        name : "프로그래밍 언어",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "데브옵스 · 인프라",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "임베디드 · IoT",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "자격증",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                name : "크리에이티브",
-                link : "/courses/creative",
-                sublist : [
-                    {
-                        name : "게임 개발",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            }
-                        ]
-                    },
-                    {
-                        name : "프로그래밍 언어",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "데브옵스 · 인프라",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "임베디드 · IoT",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "자격증",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    }
-                ]
+                link : '/blogs',
+                icon : 'blogs',
+                iconClassName : 'fal fa-feather-alt',
+                text : '블로그'
             }
         ]
     },
     {
-
-        isDrop : true,
-        className : "has-dropdown is-hoverable navbar-item  icon_drop_menu",
+        case : 2,
         link : "/community/reviews",
         text : "인프런",
-        list : [
+        subList : [
             {
-                name : "개발 · 프로그래밍",
-                link : "/courses/it-programming",
-                sublist : [
-                    {
-                        name : "웹 개발",
-                        link : "/courses/it-programming/web-dev",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/web-dev?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=java",
-                                name : "Java"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=nodejs",
-                                name : "NodeJs"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=spring",
-                                name : "Spring"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=python",
-                                name : "Python"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=django",
-                                name : "Django"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=spring-boot",
-                                name : "Spring Boot"
-                            },
-                            {
-                                link : "/courses/it-programming/web-dev?skill=jquery",
-                                name : "jQuery"
-                            }
-                        ]
-                    },
-                    {
-                        name : "프론트엔드",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "백엔드",
-                        link : "/courses/it-programming/back-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "풀스택",
-                        link : "/courses/it-programming/full-stack",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "모바일 앱 개발",
-                        link : "/courses/it-programming/mobile-app",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "게임 개발",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "프로그래밍 언어",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "알고리즘 · 자료구조",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "데이터베이스",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "데브옵스 · 인프라",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "임베디드 · IoT",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "자격증",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    }
-                ]
+                link : '/community/reviews',
+                icon : 'reviews',
+                iconClassName : 'fal fa-star',
+                text : '수강평'
             },
             {
-                name : "보안 · 네트워크",
-                link : "/courses/it",
-                sublist : [
-                    {
-                        name : "게임 개발",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            }
-                        ]
-                    },
-                    {
-                        name : "프로그래밍 언어",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "데브옵스 · 인프라",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "임베디드 · IoT",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "자격증",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    }
-                ]
+                link : '/community/mentorings-reviews',
+                icon : 'mentoringReviews',
+                iconClassName : 'fal fa-lightbulb-on',
+                text : '멘토링 후기'
             },
             {
-                name : "데이터 사이언스",
-                link : "/courses/data-science",
-                sublist : [
-                    {
-                        name : "게임 개발",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            }
-                        ]
-                    },
-                    {
-                        name : "프로그래밍 언어",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "데브옵스 · 인프라",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "임베디드 · IoT",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "자격증",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    }
-                ]
+                link : '/notices',
+                icon : 'notices',
+                iconClassName : 'fal fa-megaphone',
+                text : '공지사항'
             },
             {
-                name : "게임 개발",
-                link : "/courses/game-dev-all",
-                sublist : [
-                    {
-                        name : "게임 개발",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            }
-                        ]
-                    },
-                    {
-                        name : "프로그래밍 언어",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "데브옵스 · 인프라",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "임베디드 · IoT",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "자격증",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    }
-                ]
+                link : '/pages',
+                icon : 'pages',
+                iconClassName : 'fal fa-paper-plane',
+                text : '인프런 스토리'
             },
             {
-                name : "크리에이티브",
-                link : "/courses/creative",
-                sublist : [
-                    {
-                        name : "게임 개발",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            }
-                        ]
-                    },
-                    {
-                        name : "프로그래밍 언어",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "데브옵스 · 인프라",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "임베디드 · IoT",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=es6",
-                                name : "ES6"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=interactive-web",
-                                name : "인터랙티브 웹"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=clone-coding",
-                                name : "클론코딩"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=web-app",
-                                name : "웹앱"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=typescript",
-                                name : "TypeScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=redux",
-                                name : "Redux"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    },
-                    {
-                        name : "자격증",
-                        link : "/courses/it-programming/front-end",
-                        sublist : [
-                            {
-                                link : "/courses/it-programming/front-end?skill=javascript",
-                                name : "JavaScript"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=html-css",
-                                name : "HTML/CSS"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=react",
-                                name : "React"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=vuejs",
-                                name : "Vue.js"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=jquery",
-                                name : "jQuery"
-                            },
-                            {
-                                link : "/courses/it-programming/front-end?skill=nodejs",
-                                name : "Node.js"
-                            }
-                        ]
-                    }
-                ]
+                link : '/inflearn',
+                icon : 'inflearn',
+                iconClassName : 'fal fa-leaf',
+                text : '인프런 소개'
+            },
+            {
+                link : '/request-to-inflearn',
+                icon : 'request',
+                iconClassName : 'fal fa-comment-smile',
+                text : '강의·기능 요청'
             }
         ]
     }

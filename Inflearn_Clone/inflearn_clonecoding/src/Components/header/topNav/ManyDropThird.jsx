@@ -1,16 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function DropdownSubList(name, link, sublist) {
+function ManyDropThird({link, text, subList}) {
     return (
         <li>
-            <Link className='navbar-item' to={link}>{name}</Link>
+            <Link className='navbar-item' to={link}>
+                {text}
+            </Link>
             <ul className='navbar-dropdown is-boxed step_menu step_3'>
                 {
-                    sublist.map((item)=>{
+                    subList.map((_,i)=>{
                         return(
                             <li>
-                                <Link className='navbar-item' to={item.link}>{item.name}</Link>
+                                <Link className='navbar-item' to={subList[i].link}>
+                                    {subList[i].text}
+                                </Link>
                             </li>
                         )
                     })
@@ -20,4 +24,4 @@ function DropdownSubList(name, link, sublist) {
     );
 }
 
-export default DropdownSubList;
+export default ManyDropThird;

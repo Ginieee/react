@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function SubNav({link, text}) {
+function NotDrop({link, text}) {
     return (
         <div className='navbar-item'>
             <Link to={link} className='navbar-item'>
@@ -11,4 +11,4 @@ function SubNav({link, text}) {
     );
 }
 
-export default SubNav;
+export default NotDrop;
