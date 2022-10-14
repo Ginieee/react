@@ -28,7 +28,7 @@ function TopNav(){
     });
 
     return(
-        <header id="header" className={ScrollActive? "sticky" : ""}>
+        <header id="header" className={ScrollActive? "fixed" : ""}>
             <nav className="navbar">
                 {isDesktop ? <DesktopVer/> : <MobileVer/>}
             </nav>
