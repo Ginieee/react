@@ -26,10 +26,11 @@ function TopNavDesktop(props) {
                 <div className='navbar-menu'>
                     <div className='navbar-left'>
                         {
-                            topNavDesktopData.map((item)=>{
+                            topNavDesktopData.map((item,i)=>{
                                 if(item.case === 1) {
                                     return(
                                         <ManyDropFirst
+                                        key={i}
                                         link={item.link}
                                         text={item.text}
                                         subList={item.subList}
@@ -39,6 +40,7 @@ function TopNavDesktop(props) {
                                 else if(item.case === 2) {
                                     return(
                                         <OneDrop
+                                        key={i}
                                         link={item.link}
                                         text={item.text}
                                         subList={item.subList}
@@ -48,6 +50,7 @@ function TopNavDesktop(props) {
                                 else {
                                     return(
                                         <NotDrop
+                                        key={i}
                                         link={item.link}
                                         text={item.text}
                                         />
@@ -58,7 +61,7 @@ function TopNavDesktop(props) {
                     </div>
                     <div className='navbar-right'>
                         <div className='search search_bar navbar-item header_search header_search--gnb'>
-                            <input type='text' enterKeyHint='go' className='input' placeholder data-kv="headerSearchWorld"></input>
+                            <input type='text' enterKeyHint='go' className='input' placeholder="" data-kv="headerSearchWorld"></input>
                             <span className='search__icon e-header-search'>
                                 <i className='far fa-search'>
                                     <FontAwesomeIcon icon={faSearch}/>

@@ -5,18 +5,31 @@ import {bottomNavContentListData} from 'Data/header/bottomNavContentListData';
 import BottomNavMoreEl from './BottomNavMoreEl';
 import {faEllipsisH} from "@fortawesome/free-solid-svg-icons";
 import BottomNavContentEl from './BottomNavContentEl';
+import { useRecoilState } from 'recoil';
+import { navMoreState } from 'recoils/NavMore'
 
 function BottomNav(props) {
+
+    const [navMore, setNavMore] = useRecoilState(navMoreState);
+
+    const setMore = () => {
+        setNavMore(!navMore)
+    };
+
     return (
         <>
-        <div className='InfD__BottomNavigation_dimmed'></div>
+        <div
+        onClick={setMore} 
+        className={'InfD__BottomNavigation_dimmed' + (navMore ? " is_active" : "")}
+        ></div>
         <nav className='InfD__BottomNavigation'>
             <div className='more_content'>
                 <div className='el_list' style={{bottom:"0px"}}>
                     {
-                        bottomNavMoreListData.map((item)=>{
+                        bottomNavMoreListData.map((item, i)=>{
                             return(
                                 <BottomNavMoreEl
+                                key={i}
                                 link = {item.link}
                                 icon = {item.icon}
                                 className = {item.className}
@@ -30,19 +43,24 @@ function BottomNav(props) {
             <div className='nav_content'>
                 <div className='el_list'>
                     {
-                        bottomNavContentListData.map((item)=>{
+                        bottomNavContentListData.map((item, i)=>{
                             return(
                                 <BottomNavContentEl
+                                key={i}
                                 className={item.className}
                                 link = {item.link}
                                 iconClassName = {item.iconClassName}
                                 icon={item.icon}
                                 text={item.text}
+                                value={item.value}
                                 />
                             );
                         })
                     }
-                    <div className='el e_el__more'>
+                    <div 
+                    className={'el e_el__more' + (navMore ? " active" : "")}
+                    onClick={setMore}
+                    >
                         <span className='icon_cover'>
                             <span className='icon'>
                                 <FontAwesomeIcon className='fal fa-ellipsis-h-alt' icon={faEllipsisH}/>

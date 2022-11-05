@@ -1,12 +1,18 @@
 import Layout from "Components/layout/Layout";
+import Blogs from "Components/pages/Blogs";
 import Community from "Components/pages/Community";
 import Courses from "Components/pages/Courses";
 import Home from "Components/pages/Home";
+import Inflearn from "Components/pages/Inflearn";
 import Mentors from "Components/pages/Mentors";
 import NotFound from "Components/pages/NotFound";
+import Notices from "Components/pages/Notices";
 import OpenKnowledge from "Components/pages/OpenKnowledge";
+import Pages from "Components/pages/Pages";
 import Roadmaps from "Components/pages/Roadmaps";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import RequestToInflearn from "Components/pages/RequestToInflearn";
+import Dashboard from "Components/pages/Dashboard";
 
 function App() {
   return (
@@ -21,6 +27,12 @@ function App() {
           <Route path="/mentors" element={<Mentors/>}/>
           <Route path="/community/:content" element={<Community/>}/>
           <Route path="/open-knowledge" element={<OpenKnowledge/>}/>
+          <Route path="/blogs" element={<Blogs/>}/>
+          <Route path="/notices" element={<Notices/>}/>
+          <Route path="/pages" element={<Pages/>}/>
+          <Route path="/inflearn" element={<Inflearn/>}/>
+          <Route path="/request-to-inflearn" element={<RequestToInflearn/>}/>
+          <Route path="/account/dashboard" element={<Dashboard/>}/>
         </Route>
         <Route path="*" element={<NotFound/>}/>
       </Routes>

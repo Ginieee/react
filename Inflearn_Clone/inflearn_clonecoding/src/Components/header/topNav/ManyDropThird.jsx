@@ -11,7 +11,7 @@ function ManyDropThird({link, text, subList}) {
                 {
                     subList.map((_,i)=>{
                         return(
-                            <li>
+                            <li key={i}>
                                 <Link className='navbar-item' to={subList[i].link}>
                                     {subList[i].text}
                                 </Link>

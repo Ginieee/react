@@ -7,6 +7,7 @@ function TopNav(props) {
     return (
         <header id='header'>
             <nav className='navbar'>
+                <TopNavMobile/>
                 <TopNavDesktop/>
             </nav>
         </header>

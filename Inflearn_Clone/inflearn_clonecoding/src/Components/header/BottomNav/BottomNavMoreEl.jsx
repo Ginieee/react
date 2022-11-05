@@ -3,12 +3,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {faStar, faComment, faLightbulb, faBullhorn, faFeatherPointed, faLeaf} from "@fortawesome/free-solid-svg-icons";
 import {faPaperPlane} from '@fortawesome/free-regular-svg-icons';
+import { useRecoilState } from 'recoil';
+import { navMoreState } from 'recoils/NavMore'
 
 function BottomNavMoreEl({link, icon, className, text}) {
 
-    const getIcon = () => {
+    const [navMore, setNavMore] = useRecoilState(navMoreState);
 
+    const setMore = () => {
+        setNavMore(!navMore)
+    };
+
+    const getIcon = () => {
+        
         const iconText = icon
+        console.log(`${iconText}`);
 
         const study_icon = () => {
             return(
@@ -33,36 +42,47 @@ function BottomNavMoreEl({link, icon, className, text}) {
                 </svg>
             );
         }
-        
-        switch({iconText}) {
-            case 'reviews' :
-                return <FontAwesomeIcon className={className} icon={faStar}/>;
-            case 'comment' :
-                return <FontAwesomeIcon className={className} icon={faComment}/>;
-            case 'study' :
-                return ({study_icon});
-            case 'mentor':
-                return <FontAwesomeIcon className={className} icon={faLightbulb}/>;
-            case 'mentorReview' :
-                return <FontAwesomeIcon className={className} icon={faStar}/>;
-            case 'notice' :
-                return <FontAwesomeIcon className={className} icon={faBullhorn}/>;
-            case 'withUs' :
-                return ({with_us});
-            case 'pages' :
-                return <FontAwesomeIcon className={className} icon={faPaperPlane}/>;
-            case 'blogs' :
-                return <FontAwesomeIcon className={className} icon={faFeatherPointed}/>;
-            case 'inflearn' :
-                return <FontAwesomeIcon className={className} icon={faLeaf}/>;
-            default :
-                return <h6>Icon Error</h6>;
+
+        if(icon === 'reviews'){
+            return <FontAwesomeIcon className={className} icon={faStar}/>;
+        }
+        else if(icon === 'comment'){
+            return <FontAwesomeIcon className={className} icon={faComment}/>;
+        }
+        else if(icon === 'study'){
+            return study_icon();
+        }
+        else if(icon === 'mentor'){
+            return <FontAwesomeIcon className={className} icon={faLightbulb}/>;
+        }
+        else if(icon === 'mentorReview'){
+            return <FontAwesomeIcon className={className} icon={faStar}/>;
+        }
+        else if(icon === 'notice'){
+            return <FontAwesomeIcon className={className} icon={faBullhorn}/>;
+        }
+        else if(icon === 'withUs'){
+            return with_us();
+        }
+        else if(icon === 'pages'){
+            return <FontAwesomeIcon className={className} icon={faPaperPlane}/>;
+        }
+        else if(icon === 'blogs'){
+            return <FontAwesomeIcon className={className} icon={faFeatherPointed}/>;
+        }
+        else if(icon === 'inflearn'){
+            return <FontAwesomeIcon className={className} icon={faLeaf}/>;
+        }
+        else {
+            return <h6>Icon Error</h6>;
         }
     }
 
 
     return (
-        <div className='el'>
+        <div 
+        onClick={setMore}
+        className='el'>
             <Link to={link}></Link>
             <span className='icon_cover'>
                 <span className='icon circle'>

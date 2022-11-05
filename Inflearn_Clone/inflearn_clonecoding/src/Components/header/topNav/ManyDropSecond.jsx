@@ -11,9 +11,9 @@ function ManyDropSecond({link, text, subList}) {
             <ul className='navbar-dropdown is-boxed step_menu step_2'>
                 {
                     subList.map((_, i)=>{
-
                         return(
                             <ManyDropThird
+                            key={i}
                             link={subList[i].link}
                             text={subList[i].text}
                             subList={subList[i].subList}

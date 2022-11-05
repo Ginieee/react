@@ -14,6 +14,7 @@ function ManyDropFirst({link, text, subList}) {
 
                         return(
                             <ManyDropSecond
+                            key={i}
                             link={subList[i].link}
                             text={subList[i].text}
                             subList={subList[i].subList}

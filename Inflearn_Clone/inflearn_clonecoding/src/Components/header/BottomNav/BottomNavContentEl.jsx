@@ -1,9 +1,19 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faChartLine, faList, faHouse, faRoad, faEllipsisH} from "@fortawesome/free-solid-svg-icons";
+import { useRecoilState } from 'recoil';
+import { navMoreState } from 'recoils/NavMore';
 
 function BottomNavContentEl({className, link, iconClassName, icon, text}) {
+
+    const [navMore, setNavMore] = useRecoilState(navMoreState);
+
+    const setMore = () => {
+        if(navMore){
+            setNavMore(!navMore)
+        }
+    };
 
     const getIcon = () => {
         
@@ -26,9 +36,9 @@ function BottomNavContentEl({className, link, iconClassName, icon, text}) {
     }
 
     return (
-        <NavLink end to={link} 
-        className={({isActive}) => (isActive ? `${className} active` : `${className}`)}>
-            <Link to={link}></Link>
+        <NavLink end to={link}
+        onClick={setMore}
+        className={({isActive}) => ((isActive && !navMore) ? `${className} active` : `${className}`)}>
             <span className='icon_cover'>
                 <span className='icon'>
                     {getIcon()}
