@@ -1063,3 +1063,13 @@ a.navbar-item:hover {
     padding: 0 16px;
   }
 }
+
+/* TopBanner */
+section#pg___main section.hero .swiper-container {
+  width: 100%;
+}
+
+.swiper-wrapper {
+  
+}
+
