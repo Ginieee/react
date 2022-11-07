@@ -57,6 +57,20 @@ div {
   display: block;
 }
 
+embed, iframe, img, object, video {
+  height: auto;
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
 ol, ul {
   list-style: none;
 }
@@ -96,6 +110,9 @@ li {
 }
 
 /* common */
+.block:not(:last-child), .box:not(:last-child), .breadcrumb:not(:last-child), .content:not(:last-child), .highlight:not(:last-child), .level:not(:last-child), .list:not(:last-child), .message:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .subtitle:not(:last-child), .table-container:not(:last-child), .table:not(:last-child), .tabs:not(:last-child), .title:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
 
 .button, .file-cta, .file-name, .input, .pagination-ellipsis, .pagination-link, .pagination-next, .pagination-previous, .select select, .textarea {
   -moz-appearance: none;
@@ -246,6 +263,10 @@ li {
   cursor: pointer;
 }
 
+.subtitle, .title {
+  word-break: break-word;
+}
+
 .visually_hidden {
   border: 0;
   margin: -1px;
@@ -264,6 +285,23 @@ li {
 
 .text.is-5 {
   font-size: .75rem;
+}
+
+/* title.is-n */
+.title {
+    color: #363636;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+.title {
+  line-height: 1.5;
+  color: #333;
+}
+
+.title.is-3 {
+  font-size: 2rem;
 }
 
 /* .space-inset-n */
@@ -314,6 +352,13 @@ blockquote, body, dd, dl, dt, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, html
 
 body, button, input, select, textarea {
   font-family: Pretendard,-apple-system,BlinkMacSystemFont,system-ui,Roboto,Helvetica Neue,Segoe UI,Apple SD Gothic Neo,Noto Sans KR,Malgun Gothic,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,sans-serif;
+}
+
+body {
+  color: #454545;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 body {
@@ -1064,12 +1109,123 @@ a.navbar-item:hover {
   }
 }
 
+/* section pg___main */
+section#pg___main .container {
+  max-width: 1200px;
+  padding: 0 10px;
+}
 /* TopBanner */
-section#pg___main section.hero .swiper-container {
+/* Swiper */
+section#pg___main section.hero .hero_swiper {
   width: 100%;
 }
 
-.swiper-wrapper {
-  
+section#pg___main section.hero .scene {
+  height: 320px;
+  position: relative;
 }
 
+section#pg___main section.hero .scene_content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+section#pg___main section.hero .scene_content .container {
+  height: 100%;
+  max-width: 1200px;
+  padding: 0;
+}
+
+/* cover right */
+section#pg___main section.hero .scene_content .cover_right {
+  height: 100%;
+  width: 737px;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#pg___main section.hero .scene_content .cover_right img {
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+section#pg___main section.hero .scene_content .cover_right img.banner-pc-image {
+  display: block;
+}
+
+section#pg___main section.hero .scene_content .cover_right img.banner-mobile-image {
+  display: none;
+}
+
+/* cover left */
+section#pg___main section.hero .scene_content .cover_left {
+  position: absolute;
+  left: 10px;
+  top: 44%;
+  transform: translateY(-50%);
+  max-width: 600px;
+}
+
+section#pg___main section.hero .scene_content .cover_left h1.title, section#pg___main section.hero .scene_content .cover_left p.text {
+  white-space: pre;
+}
+
+section#pg___main section.hero .scene_content .cover_left .title.is-3 {
+  margin-bottom: 8px;
+}
+
+section#pg___main section.hero .scene_content .cover_left .text.is-1 {
+  color: #333;
+  word-break: keep-all;
+}
+
+/* hero tags */
+section#pg___main section.hero .scene_content .cover_left .hero-tags {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+section#pg___main section.hero .scene_content .cover_left .hero-tags>div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10px;
+  height: 24px;
+  font-size: .875rem;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+section#pg___main section.hero .scene_content .cover_left .hero-tags>div:nth-child(2) {
+  margin-left: 6px;
+}
+
+@media screen and (max-width:1280px) {
+  
+  section#pg___main section.hero .container {
+    width: auto;
+  }
+
+}
+
+@media screen and (max-width:1365px) {
+  
+  section#pg___main section.hero .scene_content .cover_right {
+    width: fit-content;
+    min-width: 55%;
+  }
+
+  section#pg___main section.hero .scene_content .cover_left {
+    width: 45%;
+  }
+
+}

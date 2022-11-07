@@ -72,6 +72,20 @@ function PaginationSlider(props) {
         <div>
             {currentIndex}/{totalCnt}
         </div>
+        <button
+        onClick={()=>{
+            swiperRef.current.autoplay.stop();
+        }}
+        >
+            Stop
+        </button>
+        <button
+        onClick={()=>{
+            swiperRef.current.autoplay.start();
+        }}
+        >
+            Start
+        </button>
         </>
     );
 }
