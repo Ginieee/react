@@ -16,7 +16,8 @@ export const topBannerContent = [
         h1Color : "#000000",
         h1Text : "IT 왕초보부터 실무까지\n인프런 로드맵 📖",
         pColor : "#000000",
-        pText : "코딩, 디자인, 게임, 마케팅.. 모든 IT 실무지식!\n프로로 가는 최고의 길잡이가 되어드릴게요 🔥"
+        pText : "코딩, 디자인, 게임, 마케팅.. 모든 IT 실무지식!\n프로로 가는 최고의 길잡이가 되어드릴게요 🔥",
+        paginationText : "로드맵 🌱"
     },
     {
         index : 2,
@@ -35,7 +36,8 @@ export const topBannerContent = [
         h1Color : "#ffffff",
         h1Text : "램프를 쓱 문지르면\n날 위한 강의가 뿅 💫",
         pColor : "#ffffff",
-        pText : "인프런 MD 선정 강의를 추천 받으세요!"
+        pText : "인프런 MD 선정 강의를 추천 받으세요!",
+        paginationText : "강의 추천 🧞"
     },
     {
         index : 3,
@@ -59,7 +61,8 @@ export const topBannerContent = [
         h1Color : "#1b1e23",
         h1Text : "개발자 실무에 꼭! 필요한\nGit과 GitHub ✨",
         pColor : "#1b1e23",
-        pText : "협업, 백업, 관리를 전부!\n입문자, 실무자 모두 만족하는 강의 모음"
+        pText : "협업, 백업, 관리를 전부!\n입문자, 실무자 모두 만족하는 강의 모음",
+        paginationText : "Git 💪"
     },
     {
         index : 4,
@@ -78,7 +81,8 @@ export const topBannerContent = [
         h1Color : "#ffffff",
         h1Text : "나만 몰랐었던 이 강의~♬",
         pColor : "#ffffff",
-        pText : "매일 업데이트 되는\n인프런 신규강의를 만나보세요!"
+        pText : "매일 업데이트 되는\n인프런 신규강의를 만나보세요!",
+        paginationText : "신규 강의 🎁"
     },
     {
         index : 5,
@@ -92,7 +96,8 @@ export const topBannerContent = [
         h1Color : "#ffffff",
         h1Text : "뭘 들어야 하지? 🤔\n나에게 딱 맞는 입문 강의",
         pColor : "#ffffff",
-        pText : "어디서부터 시작해야 할지 모르는\n당신을 위한 입문 강의"
+        pText : "어디서부터 시작해야 할지 모르는\n당신을 위한 입문 강의",
+        paginationText : "왕초보 모여라 😎"
     },
     {
         index : 6,
@@ -111,7 +116,8 @@ export const topBannerContent = [
         h1Color : "#ffffff",
         h1Text : "4시간으로 끝내는\n자바스크립트",
         pColor : "#ffffff",
-        pText : "비유로 쉽게 배우는 개념\n꼼꼼하게 정리된 복습 자료 제공!"
+        pText : "비유로 쉽게 배우는 개념\n꼼꼼하게 정리된 복습 자료 제공!",
+        paginationText : "자바스크립트"
     },
     {
         index : 7,
@@ -130,7 +136,8 @@ export const topBannerContent = [
         h1Color : "#000000",
         h1Text : "무슨 강의 들을지 고민이라면?\n현직자 Top 50 먼저 보기 👀",
         pColor : "#000000",
-        pText : "입문부터 실전까지!\n믿고 보는 실무자 Pick"
+        pText : "입문부터 실전까지!\n믿고 보는 실무자 Pick",
+        paginationText : "Top 50 👑"
     },
     {
         index : 8,
@@ -149,7 +156,8 @@ export const topBannerContent = [
         h1Color : "#ffffff",
         h1Text : "나누는 지식만큼\n커지는 보람과 보상",
         pColor : "#ffffff",
-        pText : "인프런 지식공유자로\n높은 수익과 가치를 만들어보세요."
+        pText : "인프런 지식공유자로\n높은 수익과 가치를 만들어보세요.",
+        paginationText : "지식공유신청"
     },
     {
         index : 9,
@@ -168,7 +176,8 @@ export const topBannerContent = [
         h1Color : "#ffffff",
         h1Text : "함께 성장할\n동료를 찾아요 🌿",
         pColor : "#ffffff",
-        pText : "#우리 #함께성장해요\n#동료여어디계신가요?"
+        pText : "#우리 #함께성장해요\n#동료여어디계신가요?",
+        paginationText : "인프런 동료찾기"
     },
     {
         index : 10,
@@ -187,6 +196,7 @@ export const topBannerContent = [
         h1Color : "#ffffff",
         h1Text : "우리는 성장기회의\n평등을 추구합니다.",
         pColor : "#ffffff",
-        pText : "누구나 배움의 기회를 누리고 꿈을 이룰 수 있도록!\n인프런과 함께 배우고, 나누고, 성장하세요."
+        pText : "누구나 배움의 기회를 누리고 꿈을 이룰 수 있도록!\n인프런과 함께 배우고, 나누고, 성장하세요.",
+        paginationText : "인프런은 🌱"
     }
 ]

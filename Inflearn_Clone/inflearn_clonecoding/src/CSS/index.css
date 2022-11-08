@@ -62,6 +62,25 @@ embed, iframe, img, object, video {
   max-width: 100%;
 }
 
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
 img {
   height: auto;
 }
@@ -1226,6 +1245,235 @@ section#pg___main section.hero .scene_content .cover_left .hero-tags>div:nth-chi
 
   section#pg___main section.hero .scene_content .cover_left {
     width: 45%;
+  }
+
+}
+
+/* topBanner pagination controller */
+section#pg___main section.hero .pagination-container {
+  height: 64px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+section#pg___main section.hero .pagination-container .container {
+  position: relative;
+  display: grid;
+  padding-top: 13.5px;
+  grid-template-columns: 135px 33px 1fr 52px;
+  height: 100%;
+  max-height: 100%;
+  cursor: default;
+}
+
+section#pg___main section.hero .pagination-container .swiper-pagination-controller {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  width: 135px;
+  height: 36px;
+  font-size: .875rem;
+  color: #fff;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+section#pg___main section.hero .pagination-container .swiper-pagination-controller .index-wrapper {
+  margin-right: auto;
+}
+
+section#pg___main section.hero .pagination-container .swiper-pagination-controller .control-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50px;
+}
+
+section#pg___main section.hero .pagination-container .swiper-pagination-controller .control-wrapper button {
+  padding: 0;
+  background: none;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+section#pg___main section.hero .pagination-container .swiper-pagination-controller .control-wrapper .control-next-button i, 
+section#pg___main section.hero .pagination-container .swiper-pagination-controller .control-wrapper .control-previous-button i {
+  font-size: .75rem;
+}
+
+section#pg___main section.hero .pagination-container .swiper-pagination-controller .control-wrapper .control-play-pause-button {
+  display: flex;
+  align-items: center;
+  max-height: 10px;
+}
+
+section#pg___main section.hero .pagination-container .swiper-pagination-controller .control-wrapper .control-play-pause-button .fa-play {
+  display: none;
+  font-size: .65rem;
+}
+
+section#pg___main section.hero .pagination-container .swiper-pagination-controller .control-wrapper .control-play-pause-button.play .fa-play, 
+section#pg___main section.hero .pagination-container .swiper-pagination-controller .control-wrapper .control-play-pause-button svg {
+  display: block;
+}
+
+section#pg___main section.hero .pagination-container .swiper-pagination-controller .control-wrapper .control-play-pause-button.play svg {
+  display: none;
+}
+
+section#pg___main section.hero .pagination-container .divider {
+  margin: 0 1rem;
+  width: 1px;
+  height: 36px;
+  background-color: #dee2e6;
+}
+
+section#pg___main section.hero .pagination-container .swiper-pagination-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 36px;
+}
+
+section#pg___main section.hero .pagination-container .swiper-pagination-wrapper .swiper-pagination {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  z-index: 71;
+  height: 36px;
+}
+
+section#pg___main section.hero .pagination-container .swiper-pagination-wrapper .pagination-gradient {
+  position: absolute;
+  top: 0;
+  width: 15px;
+  height: 36px;
+  z-index: 72;
+}
+
+section#pg___main section.hero .pagination-container .swiper-pagination-wrapper .pagination-gradient.left-gradient {
+  display: none;
+  left: 0;
+  background-image: linear-gradient(90deg, #fff, hsla(0,0%,100%,0));
+}
+
+section#pg___main section.hero .pagination-container .swiper-pagination-wrapper .pagination-gradient.right-gradient {
+  display: none;
+  right: 0;
+  background-image: linear-gradient(90deg, hsla(0,0%,100%,0),#fff);
+}
+
+section#pg___main section.hero .pagination-container .open-pages-button {
+  margin-left: 1rem;
+  width: 36px;
+  height: 36px;
+  font-size: 1rem;
+  color: #495057;
+  border-radius: 36px;
+  border: 1px solid #ced4da;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0%);
+  background-color: #fff;
+  cursor: pointer;
+}
+
+section#pg___main section.hero .pagination-container .open-pages-button.active {
+  border: 1px solid #00c471;
+  color: #00c471;
+}
+
+section#pg___main section.hero .pagination-bullet, 
+section#pg___main section.hero .swiper-pagination-bullet {
+  flex: 0 0 auto;
+  padding: 0 1rem;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-size: .875rem;
+  font-weight: 700;
+  color: #495057;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 1px #ced4da;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+section#pg___main section.hero .pagination-bullet+.swiper-pagination-bullet, 
+section#pg___main section.hero .swiper-pagination-bullet+.swiper-pagination-bullet {
+  margin-left: 8px;
+}
+
+section#pg___main section.hero .pagination-bullet-active, 
+section#pg___main section.hero .swiper-pagination-bullet-active {
+  color: #00c471;
+  box-shadow: inset 0 0 0 2px #00c471;
+}
+
+/* TopBanner Menu */
+section#pg___main section.hero .show-more-container {
+  position: relative;
+  display: none;
+  width: 100%;
+}
+
+section#pg___main section.hero .show-more-box {
+  position: absolute;
+  top: -2px;
+  right: 0;
+  width: 857px;
+  max-width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 0 1px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 4%);
+  background-color: #fff;
+  z-index: 9;
+}
+
+section#pg___main section.hero .show-more-box .show-more-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 48px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+section#pg___main section.hero .show-more-box .show-more-header h3 {
+  color: #212529;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+section#pg___main section.hero .show-more-box .show-more-header button {
+  color: #ced4da;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+section#pg___main section.hero .show-more-box .show-more-list {
+  padding: 12px 20px 20px 12px;
+}
+
+section#pg___main section.hero .show-more-box .show-more-list ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section#pg___main section.hero .show-more-box .show-more-list ul .pagination-bullet {
+  display: block;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+@media screen and (max-width:1280px) {
+
+  section#pg___main section.hero .container {
+    width: auto;
   }
 
 }
