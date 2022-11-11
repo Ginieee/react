@@ -12,6 +12,7 @@ function TopBannerSlideTags({tags}) {
 
                     return (
                         <div
+                        key={`heroTags` + i}
                         style={{color:textColor, backgroundColor:bgColor}}
                         >
                             {text}

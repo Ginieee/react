@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 // import Swiper core and required modules
 import { Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faPlay, faChevronRight, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
@@ -76,6 +77,7 @@ function TopBanner(props) {
                     topBannerContent.map((item)=>{
                         return(
                             <SwiperSlide
+                            key={`swiperSlide` + item.index}
                             className='scene e-marketing-cls'
                             >
                                 <TopBannerSlide
@@ -137,6 +139,7 @@ function TopBanner(props) {
 
                                         const result = 
                                         <span 
+                                        key={`pagination` + item.index}
                                         className={'swiper-pagination-bullet hero-bullet' + (indexNow(item.index) ? " swiper-pagination-bullet-active" : "")}
                                         onClick={
                                             (e) => {
@@ -177,7 +180,8 @@ function TopBanner(props) {
                             {
                                 topBannerContent.map((item)=>{
                                     return(
-                                        <li>
+                                        <li
+                                        key={`showMoreList` + item.index}>
                                             <span 
                                             className={'pagination-bullet e-select-bullet hero-bullet' + (indexNow(item.index) ? " pagination-bullet-active" : "")}
                                             onClick={
