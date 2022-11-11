@@ -145,6 +145,24 @@ li {
   margin-bottom: 1.5rem;
 }
 
+.box {
+  border-radius: 6px;
+  box-shadow: 0 2px 3px rgb(0 10 18 / 10%), 0 0 0 1px rgb(0 10 18 / 10%);
+  color: #454545;
+  display: block;
+  padding: 1.25rem;
+}
+
+.box {
+  border-radius: 1px;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 4px;
+  color: #333;
+}
+
 .button, .file-cta, .file-name, .input, .pagination-ellipsis, .pagination-link, .pagination-next, .pagination-previous, .select select, .textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -409,6 +427,14 @@ li {
   cursor: pointer;
 }
 
+.space-inset-8 {
+  padding: 16px;
+}
+
+.space-inset-stretch-5 {
+  padding: 10px 16px;
+}
+
 .subtitle, .title {
   word-break: break-word;
 }
@@ -427,6 +453,10 @@ li {
 /* text.is-n */
 .text.is-1 {
   font-size: 1rem;
+}
+
+.text.is-2 {
+  font-size: .9375rem;
 }
 
 .text.is-3 {
@@ -453,6 +483,14 @@ li {
 .title {
   line-height: 1.5;
   color: #333;
+}
+
+.title.is-2 {
+  font-size: 2.25rem;
+}
+
+.title.is-2 {
+  line-height: 1.33;
 }
 
 .title.is-3 {
@@ -1303,6 +1341,11 @@ section#pg___main .button .icon {
 
 section#pg___main .button .icon:last-child {
   margin: unset;
+}
+
+section#pg___main .button .icon:last-child:not(:first-child) {
+  margin-left: 0.25rem;
+  margin-right: unset;
 }
 
 section#pg___main .container {
@@ -2368,3 +2411,118 @@ section#pg___main section.curation .InfD__Card_curation .image img {
 }
 
 /* recent root */
+
+/* review */
+/* review - content left */
+section#pg___main section.review .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+section#pg___main section.review .content_left {
+  max-width: 480px;
+  width: 100%;
+  padding: 40px 16px 40px 0;
+}
+
+section#pg___main section.review .content_left .title {
+  color: #242424;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+section#pg___main section.review .content_left .title #count_user {
+  color: #47c880;
+}
+
+section#pg___main section.review .content_left .text {
+  color: #757575;
+  margin-bottom: 36px;
+}
+
+section#pg___main section.review .content_left .buttons .button {
+  font-size: 16px;
+  color: #333;
+  border-radius: 3px;
+  border: 1px solid #1dc078;
+  background-color: #fff;
+}
+
+section#pg___main section.review .content_left .buttons .button .icon {
+  font-size: 20px;
+}
+
+section#pg___main section.review .content_left .buttons .button:hover{
+  background-color:rgba(29,192,120,.12);
+}
+
+/* review - content right */
+
+section#pg___main section.review .content_right {
+  max-width: 590px;
+  width: 100%;
+}
+
+section#pg___main section.review .content_right .swiper-container {
+  height: 480px;
+  position: relative;
+}
+
+section#pg___main section.review .content_right .swiper-mask {
+  width: 100%;
+  height: 48px;
+  background: linear-gradient(180deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.72));
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+section#pg___main section.review .content_right .box {
+  background-color: #f9f9f9;
+  width: auto;
+  height: auto;
+  margin: 5px;
+}
+
+/* review card */
+section#pg___main section.review .content_right .box {
+  background-color: #f9f9f9;
+  width: auto;
+  height: auto;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+section#pg___main section.review .content_right .box .box_top {
+  margin-bottom: 16px;
+}
+
+section#pg___main section.review .content_right .box .box_top .name {
+  color: #757570;
+  margin-right: 8px;
+}
+
+section#pg___main section.review .content_right .box .box_top .date {
+  color: #979797;
+}
+
+section#pg___main section.review .content_right .box .box_bottom .title {
+  display: flex;
+  align-items: center;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+section#pg___main section.review .content_right .box .box_bottom .title .icon {
+  font-size: 20px;
+  text-decoration: unset;
+}
+
+section#pg___main section.review .content_right .box .box_bottom .text {
+  color: #333;
+}
+
+section#pg___main section.review .content_right .box .box_bottom .title:hover{
+  color:#595950;
+  text-decoration:underline;
+}

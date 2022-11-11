@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar, faPlus, faCartPlus, faCertificate } from '@fortawesome/free-solid-svg-icons';
+import { faPlus, faCartPlus, faCertificate } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
 import React from 'react';
 import { Link } from 'react-router-dom';
