@@ -123,7 +123,7 @@ function WelcomeRoot(props) {
                                             <SwiperSlide
                                             key={'welcomeSlide'+i}>
                                                 <WelcomeSlide
-                                                linkSrc={item.courseTitle}
+                                                linkSrc={item.linkSrc}
                                                 imgSrc={item.imgSrc}
                                                 ribbonCnt={item.ribbonCnt}
                                                 courseTitle={item.courseTitle}

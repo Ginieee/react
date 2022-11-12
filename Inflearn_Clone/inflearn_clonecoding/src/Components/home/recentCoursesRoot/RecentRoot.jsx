@@ -120,7 +120,7 @@ function RecentRoot(props) {
                                             <SwiperSlide
                                             key={'freeSlide'+i}>
                                                 <RecentSlide
-                                                linkSrc={item.courseTitle}
+                                                linkSrc={item.linkSrc}
                                                 imgSrc={item.imgSrc}
                                                 ribbonCnt={item.ribbonCnt}
                                                 courseTitle={item.courseTitle}

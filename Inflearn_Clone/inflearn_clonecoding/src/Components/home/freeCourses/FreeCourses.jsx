@@ -122,7 +122,7 @@ function FreeCourses(props) {
                                             <SwiperSlide
                                             key={'freeSlide'+i}>
                                                 <FreeCoursesSlide
-                                                linkSrc={item.courseTitle}
+                                                linkSrc={item.linkSrc}
                                                 imgSrc={item.imgSrc}
                                                 ribbonCnt={item.ribbonCnt}
                                                 courseTitle={item.courseTitle}

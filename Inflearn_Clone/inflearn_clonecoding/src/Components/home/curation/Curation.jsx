@@ -28,6 +28,7 @@ function Curation(props) {
                                 curationData.map((item,i)=>{
                                     return (
                                         <CurationCard
+                                        key={'curationSlide' + i}
                                         linkSrc={item.linkSrc}
                                         imgSrc={item.imgSrc}
                                         title={item.title}

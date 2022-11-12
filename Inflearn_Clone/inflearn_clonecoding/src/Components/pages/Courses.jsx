@@ -1,10 +1,9 @@
 import React from 'react';
-import { useLocation, useParams, useSearchParams } from 'react-router-dom';
+import { useParams, useSearchParams } from 'react-router-dom';
 
 function Courses(props) {
 
     const params = useParams();
-    const location = useLocation();
     const [searchParams, setSearchParams] = useSearchParams();
     const skill = searchParams.get('skill')
 

@@ -120,7 +120,7 @@ function RoadmapRoot(props) {
                                             <SwiperSlide
                                             key={'roadmapSlide'+i}>
                                                 <RoadmapSlide
-                                                linkSrc={item.courseTitle}
+                                                linkSrc={item.linkSrc}
                                                 imgSrc={item.imgSrc}
                                                 title={item.title}
                                                 author={item.author}/>

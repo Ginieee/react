@@ -66,6 +66,7 @@ function Review(props) {
                                 reviewData.map((item,i)=> {
                                     return (
                                         <SwiperSlide
+                                        key={'reviewSlide' + i}
                                         className='box space-inset-8'>
                                             <ReviewCard
                                             nameText={item.nameText}

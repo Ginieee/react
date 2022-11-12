@@ -1,3 +1,6 @@
+import ApplySection from 'Components/home/applySection/ApplySection';
+import GroupSection from 'Components/home/b2bGroup/GroupSection';
+import Banner2 from 'Components/home/banner2/Banner2';
 import Curation from 'Components/home/curation/Curation';
 import FreeCourses from 'Components/home/freeCourses/FreeCourses';
 import TopBanner from 'Components/home/hero/TopBanner';
@@ -19,7 +22,9 @@ function Home(props) {
             <Curation/>
             <RecentRoot/>
             <Review/>
-            <h1>home입니다.</h1>
+            <Banner2/>
+            <GroupSection/>
+            <ApplySection/>
         </section>
     );
 }

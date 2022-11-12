@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faPlay, faChevronRight, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 // Import Swiper styles
-import 'swiper/scss';
+import "swiper/css";
 import TopBannerSlide from './TopBannerSlide';
 import { topBannerContent } from 'Data/home/topBannerContent';
 
