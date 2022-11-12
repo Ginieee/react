@@ -18,10 +18,10 @@ function Courses(props) {
                         <CoursesBody/>
                     </div>
                 </div>
-                <h2>Courses 입니다.</h2>
+                {/* <h2>Courses 입니다.</h2>
                 <h3>{params.big} 입니다.</h3>
                 <h4>{params.middle} 입니다.</h4>
-                <h4>쿼리 스트링 : {skill}</h4>
+                <h4>쿼리 스트링 : {skill}</h4> */}
             </section>
         </div>
     );
