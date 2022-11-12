@@ -62,6 +62,15 @@ embed, iframe, img, object, video {
   max-width: 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
 h3 {
   display: block;
   font-size: 1.17em;
@@ -70,11 +79,6 @@ h3 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-  font-weight: 400;
 }
 
 h3 {
@@ -235,6 +239,10 @@ li {
 
 .accordions .accordion .accordion-header+.accordion-body .accordion-content {
   padding: 1em 1.25em;
+}
+
+.accordions .accordion.is-active .accordion-body {
+  max-height: 100em;
 }
 
 .atom_checkbox {
@@ -771,6 +779,15 @@ li {
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px,1px,1px,1px);
+  white-space: nowrap;
 }
 
 /* html */
@@ -4193,4 +4210,481 @@ section.card.image_card.roadmap_card .card-content p.meta.enroll-count svg {
   font-weight: 700;
   color: #00c471;
   background-color: #fff;
+}
+
+/* mentors - instructors 페이지 */
+.pg___instructors .instructor_list_section header.instructor_list_hero {
+  background-color: #b9f1f1;
+}
+
+.pg___instructors .instructor_list_section header.instructor_list_hero .hero-content {
+  position: relative;
+  margin: auto;
+  padding: 31px 2rem 38px;
+}
+
+.pg___instructors .instructor_list_section header.instructor_list_hero .hero-content__image-cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url(https://cdn.inflearn.com/public/mentors/mentors_banner_w.png);
+  background-position: calc(100% + 80px) 30%;
+  background-repeat: no-repeat;
+}
+
+.pg___instructors .instructor_list_section header.instructor_list_hero h1.heading_list {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #1b1c1d;
+  letter-spacing: -.3px;
+}
+
+.pg___instructors .instructor_list_section header.instructor_list_hero p.heading_desc {
+  font-weight: 400;
+  line-height: 1.47;
+  letter-spacing: -.3px;
+  font-size: 15px;
+  color: #1b1c1d;
+}
+
+.pg___instructors .instructor_list_section header.instructor_list_hero .heading_more {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -.3px;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  color: #175cbe;
+}
+
+.pg___instructors .instructor_list_section header.instructor_list_hero .heading_more>svg {
+  margin-left: 4px;
+  width: 20px;
+  height: 20px;
+  fill: inherit;
+}
+
+/* instructors left panels */
+.pg___instructors .instructor_list_section main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.pg___instructors .instructor_list_section .container {
+  max-width: 1200px;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left {
+  min-width: 180px;
+  width: 180px;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left .sticky {
+  top: 84px;
+  position: sticky;
+  text-align: left;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .field.has-addons {
+  margin-bottom: 0;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .field.has-addons input.input {
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  z-index: 10;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .field.has-addons button.button {
+  background-color: #f5f5f5;
+  border-color: #e4e4e4;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .field.has-addons button.button, 
+.pg___instructors .instructor_list_section div.content_palette .content_body .field.has-addons input.input {
+  height: 44px;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .sort_select {
+  width: 100%;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .select.sort_select {
+  height: 44px;
+  margin-top: 1rem;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .sort_select select {
+  width: 100%;
+  border: 1px solid #e4e4e4;
+  border-radius: 0;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .select.sort_select select {
+  border-radius: 4px;
+  height: 44px;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .select:not(.is-multiple):not(.is-loading):after {
+  border-color: #595959;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left .accordions.checkbox_accordions {
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left .accordions .accordion-header {
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  border-left: 1px solid #e4e4e4;
+  color: #595959;
+  background: #fafafa;
+  display: inline-flex;
+  justify-content: center;
+  padding: 0;
+  height: 50px;
+  border-radius: 0;
+  white-space: nowrap;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left .accordions.checkbox_accordions .accordion-header {
+  justify-content: flex-start;
+  font-weight: 700;
+  border: 0;
+  border-bottom: 1px solid #e4e4e4;
+  background: #f5f5f5;
+  padding: 14px 24px;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left .accordions .accordion-header:after {
+  content: "";
+  margin-top: 2px;
+  margin-left: 0.65rem;
+  display: inline-block;
+  border: solid #595959;
+  border-width: 0 2px 2px 0;
+  padding: 2.5px;
+  transform: rotate(-45deg);
+  transition: transform .2s;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left .accordions .accordion.is-active .accordion-header:after {
+  transform: rotate(45deg);
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left .accordions .accordion-body {
+  color: #595959;
+  background: #fff;
+  border: 0;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left .accordions.checkbox_accordions .accordion-body {
+  padding: 0.75rem;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left .accordions .accordion-content {
+  display: inline-flex;
+  text-decoration: none;
+  width: 100%;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  border-left: 1px solid #e4e4e4;
+  padding: 0;
+  word-break: break-all;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left .accordions.checkbox_accordions .accordion-content {
+  padding: 5px 0;
+  border: 0;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left .accordions .accordion-content+.accordion-content {
+  border-top: 0;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left .accordions.checkbox_accordions .accordion-content .atom_checkbox.accordion_checkbox {
+  width: 100%;
+  font-size: 1rem;
+  justify-content: flex-start;
+  padding-left: 2rem;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left .accordions.checkbox_accordions .accordion-content .atom_checkbox.accordion_checkbox {
+  width: 100%;
+  font-size: 1rem;
+  justify-content: flex-start;
+  padding-left: 2rem;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left .accordions.checkbox_accordions .accordion-content .atom_checkbox.accordion_checkbox label.left:before {
+  content: "";
+  display: block;
+  height: 15px;
+  width: 15px;
+  border-radius: 0;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left .accordions.checkbox_accordions .accordion-content .atom_checkbox.accordion_checkbox>input~label.left:before {
+  background: #fff;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_left .sticky .filter_reset {
+  display: inline-block;
+  margin: 18px 0 80px;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 800;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+/* mentor panel right */
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right {
+  width: 100%;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view {
+  padding: 0 0 0 1rem;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-cards {
+  display: grid;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 241px;
+  height: 100%;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 8px 18px -5px rgb(23 39 75 / 5%);
+  border: 1px solid #e9ebee;
+  background-color: #fff;
+  transition: transform .2s ease-in-out;
+  cursor: pointer;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__top {
+  position: relative;
+  height: 100%;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__title {
+  font-weight: 400;
+  letter-spacing: -.3px;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  white-space: nowrap;
+  white-space: normal;
+  line-height: 1.5;
+  text-align: left;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  color: #1b1c1d;
+  margin-bottom: 8px;
+  line-height: 24px;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__job-info-list div {
+  position: relative;
+  display: flex;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__job-info-list>div:nth-of-type(n+2) {
+  padding-right: 44px;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__job-info-list dt {
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: -.3px;
+  font-size: 14px;
+  color: #abb0b5;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__job-info-list dd {
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: -.3px;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  white-space: normal;
+  line-height: 1.5;
+  max-height: "1.5px";
+  text-align: left;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  color: #858a8d;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__job-info-list dd, 
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__job-info-list dt {
+  line-height: 20px;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__thumbnail {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #e9ebee;
+  border-radius: 32px;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__thumbnail img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__bottom {
+  flex-shrink: 0;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #f1f3f5;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__bottom>div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 28px;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__name {
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: -.3px;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  white-space: normal;
+  line-height: 1.5;
+  max-height: "1.5px";
+  text-align: left;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  color: #abb0b5;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__rating {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  margin-left: 4px;
+  padding: 4px 8px;
+  max-width: 78px;
+  color: #f9390f;
+  text-align: center;
+  border: 0;
+  border-radius: 4px;
+  background-color: rgba(255,210,77,.2);
+  cursor: pointer;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__rating .rating-star {
+  margin-right: 3px;
+  font-size: 12px;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__rating .rating-number {
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: -.3px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-card__rating .fa-chevron-right {
+  font-size: 9px;
+  margin-left: 4px;
+}
+
+@media screen and (min-width:1025px) {
+
+  .pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .view .mentor-cards {
+    grid-template-columns: repeat(4,1fr);
+    gap: 16px;
+  }
+  
+}
+
+/* mentor pagination */
+nav.comp_paginate {
+  width: 100%;
+}
+
+.pg___instructors .instructor_list_section div.content_palette .content_body .panel_right .comp_paginate {
+  margin-bottom: 80px;
+}
+
+nav.comp_paginate ul {
+  width: 100%;
+  justify-content: center;
+  padding: 18px;
+}
+
+nav.comp_paginate ul li {
+  margin: 5px;
+}
+
+nav.comp_paginate ul li button {
+  padding: 5px 9px;
+  border-radius: 3px;
+  border: 1px solid #dedede;
+  cursor: pointer;
+  color: #595959;
+  line-height: 1;
+  font-size: 1rem;
+}
+
+
+nav.comp_paginate button.Mui-selected {
+  background-color: #1dc078;
+  border: 1px solid #1dc078;
+  color: #fff;
 }
